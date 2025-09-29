@@ -1,0 +1,9 @@
+h1{
+    background-color: rgb(108, 108, 194);
+    color:darkred;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: justify;
+}

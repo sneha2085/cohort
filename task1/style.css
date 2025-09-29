@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: haeder;
+    src: url(HaederItalic-V411x.ttf);
+}
+.nav{
+    height: 180px;;
+    background-color: rgb(6, 6, 39);
+    text-align: center;
+   color: rgb(255, 255, 255);
+   padding-top: 60px;
+   font-family:Arial, Helvetica, sans-serif;
+}
+.footer{
+    height: 60px;
+    background-color:rgb(6, 6, 39) ;
+    text-align: center;
+    padding-top:20px;
+    color: #fafafa;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 15px;
+}
+h1{
+    padding-bottom: 12px;
+    font-size:40px;
+}
+.nav p{
+    font-style: italic;
+    font-size: 15px;
+}
+.inner{
+    margin: 20px 120px 20px 120px ;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#first{
+     height: 200px;
+    background-color: rgba(118, 202, 202, 0.267);
+
+}
+#second{
+     height: 200px;
+    background-color: rgba(193, 223, 175, 0.363);
+}
+#third{
+     height: 300px;
+    background-color: rgba(228, 164, 164, 0.267);
+}
+#fourth{
+     height: 250px;
+    background-color: rgba(59, 14, 24, 0.13);
+}
+#fifth{
+     height: 300px;
+    background-color: rgba(31, 131, 31, 0.205);
+}
+.inner p{
+    padding: 15px;
+    font-size: 16px;
+}
+.main h2{
+    text-transform: uppercase;
+}
+.content{
+    background-color: #fafafa;
+    height: 40px;
+    margin:10px 120px 2px 120px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.skill{
+    font-weight: 800;
+}
+.proj{
+    font-style:oblique;
+    text-transform:capitalize;
+
+}
+.footer img{
+    background-color: #fafafa;
+    height: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
