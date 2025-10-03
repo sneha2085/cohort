@@ -1,0 +1,65 @@
+@font-face {
+    font-family: f1;
+    src: url(./OrangeAvenueDEMO-Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100% ;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-image:url(./bg.avif) ;
+    background-size:cover;
+    background-position: center;
+    
+}
+.text{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 120px;
+    font-family: f1;
+}
+.text button{
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    border:2px solid beige;
+    border-radius: 50px;
+    background-color: transparent;
+    padding:10px 20px
+}
+h1{
+    font-size: 50px;
+}
+.icon{
+   margin:10px;
+   font-weight: 900;
+   color: rgba(0, 0, 0, 0.801);
+   font-size: 20px;
+   margin-top: 15px;
+   
+}
+.nav{
+    display: flex;
+    width:100%;
+    
+}
+#f{
+    margin-left: 1100px;
+}
+.icon button{
+    border: none;
+    background-color: transparent;
+    margin:5px;
+   font-weight: 900;
+   color: rgba(0, 0, 0, 0.801);
+   font-size: 15px;
+   margin-top: 10px;
+   
+}

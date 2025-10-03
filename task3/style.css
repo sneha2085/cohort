@@ -1,0 +1,112 @@
+@font-face {
+    font-family:RR;
+    src: url(./RuntimeRegular-m2Odx.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:RR;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background:radial-gradient(beige,rgb(175, 175, 146),rgb(211, 211, 201));
+}
+#lnav{
+position: absolute;
+top: 2%;
+width:200px;
+display: flex;
+justify-content: space-between;
+font-size: 18px;
+}
+#lnav a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+#rnav{
+ margin-left:1100px;
+position: absolute;
+top: 2%;
+width:200px;
+display: flex;
+justify-content: space-between;
+font-size: 18px;
+}
+#rnav a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+#mid{
+ margin-left: 600px;
+position: absolute;
+top: 2%;
+font-size: 30px;
+font-weight: 600;
+}
+#btmbar{
+    width: 100%;
+    padding-right: 50px;
+    position: absolute;
+   bottom:3%;
+    left: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+#btmbar a{
+    text-decoration: none;
+    color: black;
+}
+#f{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+#btmleft{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+#btmleft h3{
+    margin-top: 15px;
+}
+#btmleft p{
+    font-size:15px;
+    font-weight:100;
+    margin-top: 4px;
+}
+#main>p{
+    font-size: 150px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+#f1{
+    height: 250px;
+    position: absolute;
+    top: 42%;
+    left: 55%;
+    border-radius: 10px;
+}
+#s{
+  height: 200px;
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    border-radius: 10px;
+}  
+#t{
+  height: 250px;
+    position: absolute;
+    top: 40%;
+    left: 72%;
+    border-radius: 10px;
+   
+}  
