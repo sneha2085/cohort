@@ -1,0 +1,246 @@
+@font-face {
+    font-family: dot;
+    src: url(./Ndot-55-DoenNkNm.ttf);
+}
+@font-face {
+    font-family:nav;
+    src: url(./korataki-rg-3cf0d889.ttf);
+}
+@font-face {
+    font-family:f;
+    src: url(./Sansation_Regular-COtNG1MQ.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:f;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#rnav{
+    height: 100px;
+    padding:15px 20px;
+    width:30%;
+}
+#rnav img{
+      width:65%;
+}
+#rnav h1{
+    position: absolute;
+    top:5%;
+    left:4%;
+    color: white;
+    font-family:dot;
+    font-size: 40px;
+}
+#midnav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#midnav img{
+    width: 300px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#lnav{
+    height: 100px;
+    width:40%;
+    align-items: center;
+    justify-content: flex-end;
+  display: flex;
+   gap:20px;
+}
+#lnav img{
+    width:150px;
+}
+#midnav input{
+    position: absolute;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+#lnav h4{
+    font-family:nav;
+    color: white;
+    position: absolute;
+    top:5%;
+    right:1%;
+}
+#lnav #o{
+right:29%;
+}
+#lnav #two{
+right:15%;
+}
+#p1{
+position: absolute;
+top: 25%;
+right: 20%;
+
+}
+#p1 img{
+    width: 200px;
+    rotate:330deg;
+}
+#p2{
+position: absolute;
+top:30%;
+right:15%;
+
+}
+#p2 img{
+    width: 200px;
+    rotate:330deg;
+}
+#c{
+    position: absolute;
+    left:4%;
+    top:50%;
+}
+#c h1{
+    color: rgba(255, 255, 255, 0.699);
+    font-weight: 300;
+    font-size: 45px;
+    font-family:nav;
+    
+}
+#c #second{
+    padding: 5px;
+    margin-left: 35px;
+}
+#end{
+    position: absolute;
+    bottom: 12%;
+    left: 5%;
+    font-size: 25px;
+font-family:dot ;
+color: rgba(255, 255, 255, 0.699);
+}
+.horizontal-line {
+  width: 150px; /* Adjust length */
+  height: 2px;
+  background-color: white; /* Line color */
+  position: absolute; /* To place it exactly where needed */
+  top: 135px;
+  left: 200px;
+  rotate:40deg;
+  box-shadow: 0 0 15px #ffffff;
+}
+.vertical-line {
+  width: 2px;
+  height: 300px; /* Adjust length */
+  background-color: white;
+  position: absolute;
+  top: 33px;
+  left: 480px;
+  rotate:90deg;
+   box-shadow: 0 0 15px #ffffff;
+}
+#line3{
+width: 150px; /* Adjust length */
+  height: 2px;
+  background-color: white; /* Line color */
+  position: absolute; /* To place it exactly where needed */
+  top: 207px;
+  left: 625px;
+  rotate:20deg;
+  box-shadow: 0 0 15px #ffffff;
+}
+#line4{
+    width: 2px;
+  height: 48px; /* Adjust length */
+  background-color: white;
+  position: absolute;
+  top: 210px;
+  left: 793px;
+  rotate:90deg;
+   box-shadow: 0 0 15px #ffffff;
+}
+#line5{
+    width: 2px;
+  height: 350px; /* Adjust length */
+  background-color: white;
+  position: absolute;
+  top: 36px;
+  left: 1240px;
+  rotate:90deg;
+   box-shadow: 0 0 15px #ffffff;
+}
+#line6{
+    width: 212px; /* Adjust length */
+  height: 2px;
+  background-color: white; /* Line color */
+  position: absolute; /* To place it exactly where needed */
+  top: 223px;
+  left: 578px;
+  rotate:20deg;
+  box-shadow: 0 0 15px #ffffff;
+
+}
+#line7{
+    width: 2px;
+  height: 40px; /* Adjust length */
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 240px;
+  left: 797px;
+  rotate:90deg;
+   box-shadow: 0 0 15px #ffffff;
+}
+#line8{
+ width: 600px; /* Adjust length */
+  height: 2px;
+  background-color: white; /* Line color */
+  position: absolute; /* To place it exactly where needed */
+  bottom: 7%;
+  left:0%;
+  /* rotate:40deg; */
+  box-shadow: 0 0 15px #ffffff;
+
+
+}
+#line9{
+       width: 60px; /* Adjust length */
+  height: 2px;
+  background-color: white; /* Line color */
+  position: absolute; /* To place it exactly where needed */
+  bottom:9.2%;
+  left:595px;
+  rotate:330deg;
+  box-shadow: 0 0 15px #ffffff;
+}
+#line10{
+ width: 332px; /* Adjust length */
+  height: 2px;
+  background-color: white; /* Line color */
+  position: absolute; /* To place it exactly where needed */
+  bottom:11.8%;
+  left:47.7%;
+  /* rotate:40deg; */
+  box-shadow: 0 0 15px #ffffff;
+}
+#line11{
+width: 332px; /* Adjust length */
+  height: 2px;
+  background-color: white; /* Line color */
+  position: absolute; /* To place it exactly where needed */
+  bottom:11.8%;
+  left:86.7%;
+  /* rotate:40deg; */
+  box-shadow: 0 0 15px #ffffff;
+}
