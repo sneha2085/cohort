@@ -1,0 +1,50 @@
+*{
+    font-family: "Mona Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+section{
+     flex-grow: 1;
+     border:1px solid black;
+}
+section:hover{
+    flex-grow: 2;
+    transition:2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+    section:nth-child(1){
+        background-image:url(./first.jpg);
+        background-position: center;
+        background-size: cover;
+        background-color: black;
+    }
+    section:nth-child(2){
+        background-image:url(./second.png);
+        background-position: center;
+        background-size: cover;
+    }
+    section:nth-child(3){
+        background-image:url(./third.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    section:nth-child(4){
+        background-image:url(./fourth.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    section:nth-child(5){
+        background-image:url(./fifth.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
